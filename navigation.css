@@ -1,0 +1,60 @@
+.button {
+    background-color: orange;
+
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px, 20px;
+    border: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font: bold 14px serif;
+
+}
+
+.button-container {
+    background-color:transparent;
+}
+
+.social-container {
+  display: grid;
+
+
+}
+.social-box {
+display:grid;
+width: 300px;
+padding:20px;
+margin-top: 20px;
+margin-bottom: 20px;
+border:1px solid;
+background-color:gold;
+}
+
+.social-media ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.social-media li {
+float: left;
+}
+
+.social-media li a{
+display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social-media li a:hover {
+    background-color: orange;
+  }
+
+.sidebar {
+    width:200px;
+     padding:20px;
+
+}

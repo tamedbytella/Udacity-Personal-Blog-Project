@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template:auto;
+  gap:5px;
+}
+
+.contact-box {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 500px;
+  height: auto;
+  padding:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border:1px solid;
+  background-color:gold;
+ 
+}
+
+.contact-box h2{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

@@ -1,0 +1,36 @@
+.photos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.photos-container {
+    display: flex;
+    align-items: center;
+  }
+
+.pic-container {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+
+
+figcaption {
+    text-align:left;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .caption {
+    text-align: left;
+    font-size:small;
+
+  }

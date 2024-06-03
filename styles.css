@@ -1,0 +1,77 @@
+@import url(layout.css);
+@import url(navigation.css);
+@import url(image.css);
+
+.nav {
+  background-color:gold;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: orange;
+}
+
+.nav li a.active {
+  background-color:orange;
+  color: white;
+}
+footer{
+  background-color:gold;
+}
+
+span.copyright{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font: bold 45px "lucida calligraphy";
+  color:#ffa52c;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.first-line-bold::first-line {
+  font-weight: bold;
+  font-size: large;
+}
+
+blockquote {
+  float: right;
+  width: 275px;
+  font-size: 130%;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+
