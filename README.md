@@ -1,2 +1,6 @@
-# Udacity-Personal-Blog-Project
-Building this blog was challenging but I pushed through! With each web page I practiced using HTML, CSS and Flexbox. In order to pass this project my webpage had to be responsive and debugged. I hope you enjoy reading it!
+feat: Build responsive personal blog website with Flexbox and Grid
+
+Developed a functional personal blog website using HTML and CSS.
+Implemented Flexbox and Grid to create an organized and easily
+readable layout, ensuring the site is responsive and visually
+appealing.
